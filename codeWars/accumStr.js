@@ -1,7 +1,7 @@
 const accum = (s) => {
     var totalString = '';
 
-    for (i = 0; s[i]; i++) {
+    s.array.forEach(item, i => {
         for (j = 0; j <= i; j++) {
             if (j == 0) {
                 totalString += s[i].toUpperCase();
@@ -13,6 +13,8 @@ const accum = (s) => {
         if (s[i + 1]) {
             totalString += '-'
         }
+    });{
+       
     }
     return totalString;
 }
