@@ -8,7 +8,7 @@ function findOdd(A) {
             element == item ? ++count : count;
         })
 
-        count % 2 != 0 ? result = element : result;
+        result = count % 2 != 0 ?  element : result;
     });
 
     return result;

@@ -4,7 +4,7 @@ var moveZeros = function (arr) {
     var resultArr = [];
 
     arr.forEach(element => {
-    element === 0 ? ++zeroCounts : resultArr.push(element);   
+      zeroCounts += element === 0 ? 1 : resultArr.push(element);   
     });
 
     for(i=0; zeroCounts > i; i++) { 
