@@ -1,4 +1,3 @@
 # codeWars-js
 
-Слушай парень мне этот кодварс абсолютно понятен.
-Все эти мои циклы в циклах, рекурсии...
+https://www.codewars.com/users/Ugarovsky/completed_solutions
